@@ -2,7 +2,8 @@
 
 _Author: Michał Denkiewicz (michal.denkiewicz@pw.edu.pl)_
 
-This repository is a supplement to the [PAPER INFO HERE] manuscript.
+This repository is a supplement to the "Intrinsic linking of chromatin fiber in human cells"  manuscript.
+It contains the code for all of the statistical analyses, plots and visualization performed for this manuscript.
 
 The code was tested on Python 3.10.14, to install the required packages use:
 ```
