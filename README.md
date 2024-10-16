@@ -4,6 +4,11 @@ _Author: Michał Denkiewicz (michal.denkiewicz@pw.edu.pl)_
 
 This repository is a supplement to the [PAPER INFO HERE] manuscript.
 
+The code was tested on Python 3.10.14, to install the required packages use:
+```
+pip install -r requirements.txt
+```
+
 ## Analysis code
 
 The Following notebooks contain the code for data analysis of the raw cKNOTs results.
