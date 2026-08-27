@@ -13,7 +13,6 @@ batch/*
 __pycache__/
 
 # Data folders (or links to them)
-data
 results
 models/*
 

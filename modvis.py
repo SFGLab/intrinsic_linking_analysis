@@ -17,9 +17,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pyvista as pv
 
-from structuregenerator.generator import self_avoiding_random_walk
-from structuregenerator.generator import save_points_as_pdb
-
 
 def beads_and_restraints_from_graph(graph, bead_spacing_bp, padding_bp=0, bounds=None, all_restraints=False):
     assert padding_bp >= 0
@@ -180,7 +177,7 @@ def plot_model(
             continue
         if restraints_only_within_groups and g[u] != g[v]:
             continue
-        tube = pv.Tube(coords[u], coords[v], radius=interaction_radius)
+        tube = pv.Tube(pointa=coords[u], pointb=coords[v], radius=interaction_radius)
         _plt.add_mesh(tube, color=interaction_color)
     if plotter is None:
         _plt.show()

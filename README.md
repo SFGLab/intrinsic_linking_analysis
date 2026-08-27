@@ -5,6 +5,8 @@ _Author: Michał Denkiewicz (michal.denkiewicz@pw.edu.pl)_
 This repository is a supplement to the "Intrinsic linking of chromatin fiber in human cells"  manuscript.
 It contains the code for all of the statistical analyses, plots and visualization performed for this manuscript.
 
+You will need to populate the `data` directory with input data files, as required by each notebook.
+
 The code was tested on Python 3.10.14, to install the required packages use:
 ```
 pip install -r requirements.txt
@@ -14,8 +16,8 @@ pip install -r requirements.txt
 
 The Following notebooks contain the code for data analysis of the raw cKNOTs results.
 - `data_consolidation.ipynb` - Noteboook used to create intermediate files before the analysis.
-- `analysis.ipynb` - Contains the statistical analyses used in the manuscript.
-- `graph_visualization.ipynb` - A Jupyter notebook that alolows to visualize a single CCD as a 
+- `analysis_*.ipynb` - Contains the statistical analyses used in the manuscript.
+- `graph_visualization.ipynb`, `model_visualization.ipynb` - Jupyter notebooks that alolows to visualize a single CCD as a 
 graph and a 3D model.
 - `batch_models_analysis.ipynb` - Analyses the linking in batches of 3D models.
 
