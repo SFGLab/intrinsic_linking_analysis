@@ -6,6 +6,7 @@ This repository is a supplement to the "Intrinsic linking of chromatin fiber in 
 It contains the code for all of the statistical analyses, plots and visualization performed for this manuscript.
 
 You will need to populate the `data` directory with input data files, as required by each notebook.
+Processed data is availible under [https://doi.org/10.5281/zenodo.22134522](https://doi.org/10.5281/zenodo.22134522)
 
 The code was tested on Python 3.10.14, to install the required packages use:
 ```
